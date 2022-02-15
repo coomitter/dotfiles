@@ -19,6 +19,7 @@
     alacritty
     firefox
     rofi
+    xmobar
   ];
 
   environment.binsh = "${pkgs.dash}/bin/dash";
