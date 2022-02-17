@@ -7,7 +7,7 @@
     bzip2 gzip zip unzip
     fish dash starship
     nnn htop rsync
-    nixos-option
+    nixos-option home-manager
 
     # development programs
     clang lldb
@@ -18,8 +18,7 @@
     # X11 programs i use
     alacritty
     firefox
-    rofi
-    xmobar
+    rofi xmobar feh
   ];
 
   environment.binsh = "${pkgs.dash}/bin/dash";
@@ -33,4 +32,8 @@
     keepEnv = true;
     persist = true;
   }];
+
+  fonts.fonts = with pkgs; [
+    nerdfonts
+  ];
 }

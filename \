@@ -1,0 +1,15 @@
+lparens = '\('
+rparens = '\)'
+
+[character] 
+success_symbol = "[](bold green) " 
+error_symbol = "[✗](bold red) "
+format = "\($symbol\)"
+
+[git_branch]
+symbol = " "
+truncation_length = 20
+truncation_symbol = "..."
+
+[line_break]
+disabled = true

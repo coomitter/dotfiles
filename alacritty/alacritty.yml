@@ -3,5 +3,12 @@ import:
 
 window:
   padding:
-   x: 3
-   y: 3
+    x: 3
+    y: 3
+
+font:
+  normal:
+    family: Mononoki Nerd Font
+    style: Regular
+
+  size: 13.0 

@@ -1,0 +1,15 @@
+[character] 
+success_symbol = "[﬌](bold green) " 
+error_symbol = "[✗](bold red) "
+
+[git_branch]
+symbol = " "
+truncation_length = 20
+truncation_symbol = "..."
+
+[line_break]
+disabled = true
+
+[username]
+show_always = true
+format = "[$user]($style) on [](blue)  "

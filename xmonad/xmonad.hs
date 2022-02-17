@@ -17,7 +17,7 @@ myNormalBorderColor     = "#28c4ca"
 myFocusedBorderColor    = "#14e55d"
 
 myLayoutHook            = avoidStruts $ ResizableTall 1 (2/100) (1/2) []
-mySpacing               = spacingRaw False (Border 6 0 0 3) True (Border 4 4 4 4) True
+mySpacing               = spacingRaw False (Border 20 0 0 3) True (Border 4 4 4 4) True
 
 main = xmonad $ def
     {terminal = myTerminal
