@@ -18,7 +18,7 @@
     # X11 programs i use
     alacritty
     firefox
-    rofi xmobar feh
+    dmenu xmobar feh
   ];
 
   environment.binsh = "${pkgs.dash}/bin/dash";

@@ -1,9 +1,9 @@
 [character] 
-success_symbol = "[﬌](bold green) " 
-error_symbol = "[✗](bold red) "
+success_symbol = "[➜](bold green)"
+error_symbol = "[✗](bold red)"
 
 [git_branch]
-symbol = " "
+symbol = " "
 truncation_length = 20
 truncation_symbol = "..."
 
@@ -12,4 +12,4 @@ disabled = true
 
 [username]
 show_always = true
-format = "[$user]($style) on [](blue)  "
+format = '\[[$user]($style) on [](blue) \] '
